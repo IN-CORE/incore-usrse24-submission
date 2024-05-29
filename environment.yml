@@ -8,3 +8,6 @@ dependencies:
   - pyincore
   - pyincore-viz
   - pyincore-data
+  - descartes
+  - contextily
+  - matplotlib

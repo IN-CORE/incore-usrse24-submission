@@ -1,4 +1,4 @@
-# Joplin, MO Community Resilience Analysis: A Case Study of Tornado Impact Using [IN-CORE](https://incore.ncsa.illinois.edu/)
+# Joplin, MO Community Resilience Analysis: A Case Study of Tornado Impact Using IN-CORE
 
 ```
 Lee, J. S., Navarro, C., Wang, C., Kim, Y. W., Panchani, R., Yang, Y., Kooper, R., Mohanarajan, V., & Watkins, L., 
@@ -71,3 +71,89 @@ for community resilience planning. The Playbook provides practical steps and ana
 prepare for, respond to, and recover from disasters. IN-CORE is in partnership with the city of Joplin and conducted
 four workshops with the city planners and government officials, making it a valuable resource for resilience planning.
 
+---
+
+
+### Instructions
+
+#### Register an IN-CORE account
+
+Access to the IN-CORE service requires a user account from the NCSA identity management system. Registration is free
+and open to everyone. This account provides access to public data and allows you to create private data. It is
+recommended to sign up with your institutional email. Register
+at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
+
+#### Install pyIncore and related packages
+
+1. **Update Conda** (if already installed):
+    ```sh
+    conda update conda
+    ```
+
+2. **Install Miniconda** (if not already installed):
+    - Download the latest Miniconda3 installer from the [Miniconda web page](https://docs.conda.io/en/latest/miniconda.html).
+
+3. **Add Conda-Forge Channel**:
+    ```sh
+    conda config --add channels conda-forge
+    ```
+
+4. **Create Python Environment**:
+    ```sh
+    conda create -n pyincoreEnv python=3.9
+    ```
+
+5. **Activate Environment**:
+    ```sh
+    conda activate pyincoreEnv
+    ```
+
+6. **Install pyIncore**:
+    ```sh
+    conda install -c in-core pyincore
+    ```
+
+7. **Install pyIncore-viz**:
+    ```sh
+    conda install -c in-core pyincore-viz
+    ```
+   
+8. **Install pyIncore-data** (optional):
+    ```sh
+    conda install -c in-core pyincore-data
+    ```
+
+9. **Specify Version** (if needed):
+    ```sh
+    conda install -c in-core pyincore=1.18.0
+    ```
+
+10. **Install Jupyter Notebook**:
+    ```sh
+    conda install jupyter
+    ```
+
+### Running Jupyter Notebook
+
+1. **Start Jupyter Notebook**:
+    ```sh
+    jupyter notebook
+    ```
+
+2. **Open Notebook**:
+Open the notebook `joplin_community_app.ipynb` in your browser. If it doesn't open automatically, copy/paste the token provided in the terminal into your browser's navigation bar.
+
+For more information, visit:
+- [pyincore on Anaconda](https://anaconda.org/IN-CORE/pyincore)
+- [pyincore-viz on Anaconda](https://anaconda.org/IN-CORE/pyincore-viz)
+
+
+### Additional Resources
+
+- For more information, please refer to IN-CORE’s [Frequently Asked Questions (FAQ)](https://incore.ncsa.
+illinois.edu/faq) and [WIKI](https://incore.ncsa.illinois.edu/wiki).
+- You can explore other example Jupyter Notebooks and learn more about the project on the [IN-CORE GitHub page](https://github.com/IN-CORE).
+- For real-time support and to engage with other users, join our Slack community:
+  - Slack Channel: [IN-CORE Slack](https://in-core.slack.com/)
+  - Invitation: [Join IN-CORE Slack](https://join.slack.com/t/in-core/shared_invite/zt-25zffgnae-h0v8uGjpSli1YYp0Ypr68Q)
+- Subscribe to the IN-CORE mailing list to receive the latest release information: <incore-dev@lists.illinois.edu>
