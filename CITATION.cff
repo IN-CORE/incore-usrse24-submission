@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite it as below."
+authors:
+- family-names: "Lee"
+  given-names: "Jong S"
+- family-names: "Navarro"
+  given-names: "Chris"
+- family-names: "Wang"
+  given-names: "Chen"
+- family-names: "Kim"
+  given-names: "Yong Wook"
+- family-names: "Panchani"
+  given-names: "Rashmil"
+- family-names: "Yang"
+  given-names: "Ya-Lan"
+- family-names: "Kooper"
+  given-names: "Rob"
+- family-names: "Mohanarajan"
+  given-names: "Vismayak"
+- family-names: "Watkins"
+  given-names: "Lisa"
+title: "IN-CORE US-RSE’24 Submission: Joplin, MO Community Resilience Analysis: A Case Study of Tornado Impact Using IN-CORE"
+version: 1.0.0
+date-released: 2024-06-03
+url: "https://github.com/IN-CORE/incore-usrse24-submission"
