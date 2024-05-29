@@ -150,8 +150,7 @@ For more information, visit:
 
 ### Additional Resources
 
-- For more information, please refer to IN-CORE’s [Frequently Asked Questions (FAQ)](https://incore.ncsa.
-illinois.edu/faq) and [WIKI](https://incore.ncsa.illinois.edu/wiki).
+- For more information, please refer to IN-CORE’s [Frequently Asked Questions (FAQ)](https://incore.ncsa.illinois.edu/faq) and [WIKI](https://incore.ncsa.illinois.edu/wiki).
 - You can explore other example Jupyter Notebooks and learn more about the project on the [IN-CORE GitHub page](https://github.com/IN-CORE).
 - For real-time support and to engage with other users, join our Slack community:
   - Slack Channel: [IN-CORE Slack](https://in-core.slack.com/)
