@@ -23,16 +23,16 @@ Note: This repository contains the submission materials for the US-RSE’24 conf
 
 ### Abstract
 
-Community resilience research is essential for anticipating, preventing, and mitigating the impacts of natural and anthropogenic disasters. To support the research, the [Center for Risk-Based Community Resilience Planning](http://resilience.colostate.edu/), funded by the [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), developed the measurement science. This measurement science is implemented on a platform called
-the [Interdependent Networked Community Resilience Modeling Environment (IN-CORE)](https://incore.ncsa.illinois.edu/). On IN-CORE, users can run scientific analyses that model the impact of natural hazards and community resilience against these impacts. 
+Community resilience research is essential for anticipating, preventing, and mitigating the impacts of natural and anthropogenic disasters. To support this research, the [Center for Risk-Based Community Resilience Planning](http://resilience.colostate.edu/), funded by the [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), developed the measurement science and metrics that can help communities in planning, adapting and recovering from disasters. This measurement science is implemented on an open source platform called the [Interdependent Networked Community Resilience Modeling Environment (IN-CORE)](https://incore.ncsa.illinois.edu/). On IN-CORE, users can run scientific analyses that model the impact of natural hazards and community resilience against these impacts.
 
-This Jupyter Notebook provides an example of how to use IN-CORE to analysis on community resilience with Joplin, MO community under 2011 EF-5 Tornado. The city of Joplin, Missouri, USA, was hit by an EF-5 tornado on May 22, 2011(  [NIST Report](https://nvlpubs.nist.gov/nistpubs/NCSTAR/NIST.NCSTAR.3.pdf) ). Note that IN-CORE supports vairous hazards such as earthquake, tornado, tsunami, flood, and hurricane.
+This Jupyter Notebook uses the Joplin, MO community and the historical 2011 EF-5 Tornado event as an example of how to use IN-CORE to analyze community resilience. The city of Joplin, Missouri, USA, was hit by an EF-5 
+tornado on May 22, 2011(  [NIST Report](https://nvlpubs.nist.gov/nistpubs/NCSTAR/NIST.NCSTAR.3.pdf) ). Note that IN-CORE supports various hazards including earthquake, tornado, tsunami, flood, and hurricane.
  
-The notebook contains the following analyese: damage analysis on buildings, electric power network, functionality analysis on buildings, economic impact analysis on the community economy, population dislocaiton analysis, housing household recovery analysis, and retrofit analysis on buildings. In addition, the notebook demonstrates the visualization of outputs of the analyese.   
+The notebook contains the following analyses: structural damage analysis on buildings, electric power network damage, building functionality, economic impact analysis on the community's economy, population dislocation analysis, housing 
+household recovery analysis, and retrofit analysis on buildings. In addition, the notebook demonstrates the visualization of outputs from these analyses.
 
-Lastly, the core logic of this notebook is used to power
-the [IN-CORE Community Resilience Playbook](https://incore.ncsa.illinois.edu/playbook/joplin/), an interactive guide
-for community resilience planning. It has used in the workshops with the city planners and government officials, making it a valuable resource for resilience planning.
+Lastly, the core logic of this notebook is used to power the [IN-CORE Community Resilience Playbook](https://incore.ncsa.illinois.edu/playbook/joplin/), an interactive guide
+for community resilience planning. It has been used in workshops with the city planners and government officials, making it a valuable resource for resilience planning.
 
 ---
 
@@ -109,8 +109,8 @@ at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
     ```
 
 2. **Open Notebook**:
-   Open the notebook `joplin_community_app.ipynb` in your browser. If it doesn't open automatically, copy/paste the
-   token provided in the terminal into your browser's navigation bar.
+   Open the notebook `in-core_joplin_case_study.ipynb` in your browser. If it doesn't open automatically,
+   copy/paste the token provided in the terminal into your browser's navigation bar.
 
 For more information, visit:
 
@@ -120,8 +120,8 @@ For more information, visit:
 ### Additional Resources
 
 - For more information, please refer to
-  IN-CORE’s [Frequently Asked Questions (FAQ)](https://incore.ncsa.illinois.edu/faq)
-  and [WIKI](https://incore.ncsa.illinois.edu/wiki).
+  IN-CORE’s [Frequently Asked Questions (FAQ)](https://incore.ncsa.illinois.edu/doc/incore/faq.html)
+  and [Manual](https://incore.ncsa.illinois.edu/doc/incore/index.html).
 - You can explore other example Jupyter Notebooks and learn more about the project on
   the [IN-CORE GitHub page](https://github.com/IN-CORE).
 - For real-time support and to engage with other users, join our Slack community:
