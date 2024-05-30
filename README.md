@@ -43,8 +43,10 @@ for community resilience planning. It has been used in workshops with the city p
 
 Access to the IN-CORE service requires a user account from the NCSA identity management system. Registration is free
 and open to everyone. This account provides access to public data and allows you to create private data. It is
-recommended to sign up with your institutional email. Register
-at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
+recommended to sign up with your institutional email. 
+
+Register at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
+![register](./resource/register.jpg)
 
 #### Install pyIncore and related packages
 
@@ -54,8 +56,8 @@ at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
     ```
 
 2. **Install Miniconda** (if not already installed):
-    - Download the latest Miniconda3 installer from
-      the [Miniconda web page](https://docs.conda.io/en/latest/miniconda.html).
+
+    Download the latest Miniconda3 installer from the [Miniconda web page](https://docs.conda.io/en/latest/miniconda.html).
 
 3. **Add Conda-Forge Channel**:
     ```sh
@@ -112,6 +114,10 @@ at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
 2. **Open Notebook**:
    Open the notebook `in-core_joplin_case_study.ipynb` in your browser. If it doesn't open automatically,
    copy/paste the token provided in the terminal into your browser's navigation bar.
+
+3. **Connect to IN-CORE**
+   When running the notebook, you will encounter the IN-CORE client instantiation. You will be prompted to provide your IN-CORE username and password.
+![incore-client](./resource/incore-client.png)
 
 For more information, visit:
 
