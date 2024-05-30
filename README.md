@@ -26,7 +26,8 @@ Note: This repository contains the submission materials for the US-RSE’24 conf
 Community resilience research is essential for anticipating, preventing, and mitigating the impacts of natural and anthropogenic disasters. To support this research, the [Center for Risk-Based Community Resilience Planning](http://resilience.colostate.edu/), funded by the [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), developed the measurement science and metrics that can help communities in planning, adapting and recovering from disasters. This measurement science is implemented on an open source platform called the [Interdependent Networked Community Resilience Modeling Environment (IN-CORE)](https://incore.ncsa.illinois.edu/). On IN-CORE, users can run scientific analyses that model the impact of natural hazards and community resilience against these impacts.
 
 This Jupyter Notebook uses the Joplin, MO community and the historical 2011 EF-5 Tornado event as an example of how to use IN-CORE to analyze community resilience. The city of Joplin, Missouri, USA, was hit by an EF-5 
-tornado on May 22, 2011(  [NIST Report](https://nvlpubs.nist.gov/nistpubs/NCSTAR/NIST.NCSTAR.3.pdf) ). Note that IN-CORE supports various hazards including earthquake, tornado, tsunami, flood, and hurricane.
+tornado on May 22, 2011 ([NIST Report](https://nvlpubs.nist.gov/nistpubs/NCSTAR/NIST.NCSTAR.3.pdf)). Note that 
+IN-CORE supports various hazards including earthquake, tornado, tsunami, flood, and hurricane.
  
 The notebook contains the following analyses: structural damage analysis on buildings, electric power network damage, building functionality, economic impact analysis on the community's economy, population dislocation analysis, housing 
 household recovery analysis, and retrofit analysis on buildings. In addition, the notebook demonstrates the visualization of outputs from these analyses.
@@ -42,8 +43,10 @@ for community resilience planning. It has been used in workshops with the city p
 
 Access to the IN-CORE service requires a user account from the NCSA identity management system. Registration is free
 and open to everyone. This account provides access to public data and allows you to create private data. It is
-recommended to sign up with your institutional email. Register
-at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
+recommended to sign up with your institutional email. 
+
+Register at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
+![register](./resource/register.jpg)
 
 #### Install pyIncore and related packages
 
@@ -53,8 +56,8 @@ at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
     ```
 
 2. **Install Miniconda** (if not already installed):
-    - Download the latest Miniconda3 installer from
-      the [Miniconda web page](https://docs.conda.io/en/latest/miniconda.html).
+
+    Download the latest Miniconda3 installer from the [Miniconda web page](https://docs.conda.io/en/latest/miniconda.html).
 
 3. **Add Conda-Forge Channel**:
     ```sh
@@ -111,6 +114,10 @@ at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
 2. **Open Notebook**:
    Open the notebook `in-core_joplin_case_study.ipynb` in your browser. If it doesn't open automatically,
    copy/paste the token provided in the terminal into your browser's navigation bar.
+
+3. **Connect to IN-CORE**
+   When running the notebook, you will encounter the IN-CORE client instantiation. You will be prompted to provide your IN-CORE username and password.
+![incore-client](./resource/incore-client.png)
 
 For more information, visit:
 
