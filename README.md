@@ -1,4 +1,4 @@
-# Joplin, MO Community Resilience Analysis: A Case Study of Tornado Impact Using IN-CORE
+# Community Resilience Research Using IN-CORE - Case Study with 2011 Tornado Event at Joplin, MO 
 
 **Authors**:
 
@@ -14,56 +14,25 @@
 - Wanting (Lisa) Wang <Lisa.Wang@colostate.edu> †
 
 **Affiliation**:
-Authors marked with * are affiliated with the [National Center for Supercomputing Applications]
-(https://www.ncsa.illinois.edu/), [University of Illinois at Urbana-Champaign](https://illinois.edu/).
+Authors marked with * are affiliated with the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/), [University of Illinois at Urbana-Champaign](https://illinois.edu/).
 Authors marked with † is affiliated with [Colorado State University](https://www.colostate.edu/).
 
 ---
 
-Note: This repository contains the submission materials for the US-RSE’24 conference from the IN-CORE framework. It
-demonstrates the application of IN-CORE (Interdependent Networked Community Resilience Modeling Environment) for
-assessing community resilience, focusing on the Joplin, Missouri Tornado damage case study.
+Note: This repository contains the submission materials for the US-RSE’24 conference regarding the IN-CORE (Interdependent Networked Community Resilience Modeling Environment) platform. It demonstrates the application and capabilities of IN-CORE for assessing community resilience with a real-world case study on 2011 EF-5 Tornado at Joplin, Missouri.
 
 ### Abstract
 
-Community resilience research is essential for anticipating, preventing, and mitigating the impacts of natural and
-anthropogenic disasters. Among these, tornadoes occur at a high frequency in the United States compared to other
-natural hazards such as earthquakes and tsunamis. Even a single high-intensity tornado can result in high casualty
-rates and catastrophic economic losses and social consequences, particularly for small to medium communities. Hence,
-studying the impact of tornadoes on community resilience is crucial. The city of Joplin, Missouri, USA, was hit by an
-EF-5 tornado on May 22, 2011. For more details regarding this event, please refer to the technical investigation of
-this devastating event in the [NIST Report](https://nvlpubs.nist.gov/nistpubs/NCSTAR/NIST.NCSTAR.3.pdf).
+Community resilience research is essential for anticipating, preventing, and mitigating the impacts of natural and anthropogenic disasters. To support the research, the [Center for Risk-Based Community Resilience Planning](http://resilience.colostate.edu/), funded by the [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), developed the measurement science. This measurement science is implemented on a platform called
+the [Interdependent Networked Community Resilience Modeling Environment (IN-CORE)](https://incore.ncsa.illinois.edu/). On IN-CORE, users can run scientific analyses that model the impact of natural hazards and community resilience against these impacts. 
 
-The [Center for Risk-Based Community Resilience Planning](http://resilience.colostate.edu/), funded by
-the [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), developed the measurement science
-to support community resilience assessment. This measurement science is implemented on a platform called
-the [Interdependent Networked Community Resilience Modeling Environment (IN-CORE)](https://incore.ncsa.illinois.edu/).
-On IN-CORE, users can run scientific analyses that model the impact of natural hazards and community resilience against
-these impacts. This Jupyter Notebook provides an example of how to use IN-CORE to simulate this event for buildings and
-the electrical power network of Joplin.
+This Jupyter Notebook provides an example of how to use IN-CORE to analysis on community resilience with Joplin, MO community under 2011 EF-5 Tornado. The city of Joplin, Missouri, USA, was hit by an EF-5 tornado on May 22, 2011(  [NIST Report](https://nvlpubs.nist.gov/nistpubs/NCSTAR/NIST.NCSTAR.3.pdf) ). Note that IN-CORE supports vairous hazards such as earthquake, tornado, tsunami, flood, and hurricane.
+ 
+The notebook contains the following analyese: damage analysis on buildings, electric power network, functionality analysis on buildings, economic impact analysis on the community economy, population dislocaiton analysis, housing household recovery analysis, and retrofit analysis on buildings. In addition, the notebook demonstrates the visualization of outputs of the analyese.   
 
-The initial damage prediction utilized the tornado path, tornado fragility curves representative of a 19-archetype
-building dataset, and electric power network datasets. Generic tornado paths are also available in IN-CORE, or a
-user-defined tornado path can be used. The functionality of the infrastructure was linked with a computable general
-equilibrium (CGE) economics model that computes specific community resilience metrics in economic terms. A population
-dislocation model provides resilience metrics related to socio-demographics such as population dislocation as a
-function of income or race/ethnicity. Lastly, the housing household recovery analysis computes the series of household
-recovery states given a population dislocation, a transition probability matrix (TPM), and an initial state vector. The
-history of housing recovery changes for each household unit will be predicted.
-
-To further facilitate resilience planning, several building retrofit strategies were applied to simulate the potential
-mitigation of future tornado impacts. Building retrofit involves enhancing the structural integrity of existing
-buildings to withstand natural hazards. The retrofit plan is generated as an optimal solution given budget and other
-constraints. The first step is computing the building damage considering no retrofit effort implemented on the building
-inventory. Then, the selected retrofit plan is implemented on the building inventory, and the building damage is
-computed again. Using results from the building damage with and without retrofit efforts, we can calculate population
-dislocation or other resilience metrics to see if the potential impact is reduced by the retrofit plan.
-
-Last but not least, the core logic of this notebook was also used to power
+Lastly, the core logic of this notebook is used to power
 the [IN-CORE Community Resilience Playbook](https://incore.ncsa.illinois.edu/playbook/joplin/), an interactive guide
-for community resilience planning. The Playbook provides practical steps and analytical tools to help communities
-prepare for, respond to, and recover from disasters. IN-CORE is in partnership with the city of Joplin and conducted
-four workshops with the city planners and government officials, making it a valuable resource for resilience planning.
+for community resilience planning. It has used in the workshops with the city planners and government officials, making it a valuable resource for resilience planning.
 
 ---
 
@@ -102,28 +71,17 @@ at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
     conda activate pyincoreEnv
     ```
 
-6. **Install pyIncore**:
+6. **Install pyIncore and pyIncore-viz**:
     ```sh
-    conda install -c in-core pyincore
+    conda install -c in-core pyincore pyincore-viz
     ```
 
-   If you have trouble installing pyincore, or it is taking a long time to resolve the dependencies, try using the
-   libmamba solver by running the following command:
+   If you have trouble installing pyincore and pyincore-viz, or it is taking a long time to resolve the dependencies, try using the libmamba solver by running the following command:
     ```sh
-    conda install -c in-core pyincore --solver=libmamba
+    conda install -c in-core pyincore pyincore-viz --solver=libmamba
     ```
 
-7. **Install pyIncore-viz**:
-    ```sh
-    conda install -c in-core pyincore-viz
-    ```
-   If you have trouble installing pyincore-viz, or it is taking a long time to resolve the dependencies, try using the
-   libmamba solver by running the following command:
-    ```sh
-    conda install -c in-core pyincore-viz --solver=libmamba
-    ```
-
-8. **Install pyIncore-data** (optional):
+7. **Install pyIncore-data** (optional): This package is not used in the submitted notebook.
     ```sh
     conda install -c in-core pyincore-data
     ```
