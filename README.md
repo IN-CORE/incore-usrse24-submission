@@ -2,16 +2,16 @@
 
 **Authors**:
 
+- Chen Wang <cwang138@illinois.edu> *
 - Jong S. Lee <jonglee1@illinois.edu> *
 - Chris Navarro <cmnavarr@illinois.edu> *
-- Chen Wang <cwang138@illinois.edu> *
-- Yong Wook Kim <ywkim@illinois.edu> *
 - Rashmil Panchani <rmp6@illinois.edu> *
+- Yong Wook Kim <ywkim@illinois.edu> *
 - Ya-Lan Yang <ylyang@illinois.edu> *
 - Rob Kooper <kooper@illinois.edu> *
 - Vismayak Mohanarajan <mohanar2@illinois.edu> *
-- Lisa Watkins <watkinsl@illinois.edu> *
 - Wanting (Lisa) Wang <Lisa.Wang@colostate.edu> †
+- Lisa Watkins <watkinsl@illinois.edu> *
 
 **Affiliation**:
 Authors marked with * are affiliated with the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/), [University of Illinois at Urbana-Champaign](https://illinois.edu/).
