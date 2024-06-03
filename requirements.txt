@@ -4,3 +4,4 @@ pyincore-data
 matplotlib
 contextily
 descartes
+ipympl
