@@ -28,9 +28,12 @@ Community resilience research is essential for anticipating, preventing, and mit
 This Jupyter Notebook uses the Joplin, MO community and the historical 2011 EF-5 Tornado event as an example of how to use IN-CORE to analyze community resilience. The city of Joplin, Missouri, USA, was hit by an EF-5 
 tornado on May 22, 2011 ([NIST Report](https://nvlpubs.nist.gov/nistpubs/NCSTAR/NIST.NCSTAR.3.pdf)). Note that 
 IN-CORE supports various hazards including earthquake, tornado, tsunami, flood, and hurricane.
- 
-The notebook contains the following analyses: structural damage analysis on buildings, electric power network damage, building functionality, economic impact analysis on the community's economy, population dislocation analysis, housing 
-household recovery analysis, and retrofit analysis on buildings. In addition, the notebook demonstrates the visualization of outputs from these analyses.
+
+The notebook includes analyses of structural damage to buildings, electric power network damage, building functionality, 
+economic impact on the community, population dislocation, household recovery, and retrofit options for buildings. 
+It also demonstrates how to visualize the results of these analyses. These analyses are powered by pyIncore, a Python 
+client for IN-CORE, which provides a high-level interface for interacting with IN-CORE services, 
+offering specific models (e.g., representing a tornado) and ensuring a consistent and controlled interface.
 
 Lastly, the core logic of this notebook is used to power the [IN-CORE Community Resilience Playbook](https://incore.ncsa.illinois.edu/playbook/joplin/), an interactive guide
 for community resilience planning. It has been used in workshops with the city planners and government officials, making it a valuable resource for resilience planning.
