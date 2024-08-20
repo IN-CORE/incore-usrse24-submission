@@ -44,12 +44,15 @@ for community resilience planning. It has been used in workshops with the city p
 
 #### Register an IN-CORE account
 
-Access to the IN-CORE service requires a user account from the NCSA identity management system. Registration is free
-and open to everyone. This account provides access to public data and allows you to create private data. It is
-recommended to sign up with your institutional email. 
+Access to the IN-CORE service requires a user account. Registering for an account is free and open to everyone.
+This account gives you access to all of the public data on the system and allows you to create data that is only
+accessible by you. If applicable, it is recommended that you sign up with your institutional email.
+To register for an account, please go to:
 
-Register at: [NCSA Registration](https://identity.ncsa.illinois.edu/register/BSKC2UKQPU).
-![register](./resource/register.jpg)
+[Registration Link](https://incore.ncsa.illinois.edu/auth/realms/In-core/protocol/openid-connect/registrations?client_id=react-auth&response_type=code&scope=openid&redirect_uri=https://incore.ncsa.illinois.edu/)
+
+![IN-CORE login window](resource/register.png)
+
 
 #### Install pyIncore and related packages
 
